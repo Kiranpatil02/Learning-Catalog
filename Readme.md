@@ -2,7 +2,7 @@
 -  [Fal.ai](https://fal.ai/)
 -  [Replicate.com](https://replicate.com)
 
-**Conversational models 🦜**
+**Conversational  (TTS ) models 🦜**
 -  [Sesame.com](https://www.sesame.com/) -  The best conversational voice model till date 🔊
 -  [Canopylabs](https://canopylabs.ai/model-releases) - Similar to Sesame labs
 
