@@ -39,4 +39,27 @@ The container engine handles the lifecyle  of container on the host O.S
 
 ## How are Containers Implemented
 
+**C-groups** and **kernal namespaces** are the Linux features which helps run containers in isolation.
+
+The containers have limited *visibility* and *quantity of resources* and *system calls* it can use
+
+- *visiblity* is implemented using **namespaces**
+- *resources* are implmented using **cgroups**
+
+### Namespaces
+Visibility of processes within itself, done using linux namespaces.
+
+These namespaces don't allow accessing process outside of the container
+
+List of namespaces in linux
+- Mount
+- PID
+- Network
+- User
+- Cgroup
+- UTS
+
+
+### Cgroups
+Set of processes whose usage can be metered and monitored. The resources can be memory, disk, I/O, CPU etc.
 
