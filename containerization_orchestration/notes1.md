@@ -63,3 +63,25 @@ List of namespaces in linux
 ### Cgroups
 Set of processes whose usage can be metered and monitored. The resources can be memory, disk, I/O, CPU etc.
 
+Sets of resource controllers and their functions
+- blkio : The subsystem sets limits on I/O from to and fro access and also  blocking physcial drives access.
+- cpu   :  
+- cupset : Subsystem assigns individiual CPU and memory nodes
+- freezer : pauses or resumes processes in cgroup
+- memory  : sets limit memory use by process in cgroup and generates report on memory resources 
+- devices : allows or denies access to devices by processes in cgroup
+
+## Container Engine
+Container engines ease the process of creating and managing containers in a host machine
+
+Container engines in the market: Docker, RKT, LXC (one of the first container engines) 
+
+### Container image
+Container image is packaged dependencies of the application which is lightweight and portable version to run
+
+This container image is fetched/pulled which can be run on isolated environment to get the appliction up and run within the container.
+
+
+
+
+
